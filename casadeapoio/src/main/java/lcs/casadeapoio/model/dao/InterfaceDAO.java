@@ -8,6 +8,6 @@ package lcs.casadeapoio.model.dao;
  *
  * @author user01
  */
-public interface InterfaceDAO {
-    
+public interface InterfaceDAO<T> {
+    void salvar(T entity);
 }
